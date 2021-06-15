@@ -3,7 +3,10 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <div className="container">
+    <div >
+    <title>Chefster</title>
+    <link rel="icon" href="/favicon.ico" />
+
     <h1>1WELCOME TO CHEFS KITCHEN</h1>
     <Image
     src="/background.jpg"
@@ -14,8 +17,7 @@ export default function Home() {
   />
   <h1>2WELCOME TO CHEFSTER </h1>
   <p>Welcome to my homepage!</p>
-        <title>Chefster</title>
-        <link rel="icon" href="/favicon.ico" />
+       
       
 
       <main>
@@ -31,7 +33,7 @@ export default function Home() {
       </footer>
 
       <style jsx>{`
-        /* .container {
+        .container {
           /* background-image: src='../public/background.jpg'  */
           /* no-repeat center center fixed;
           min-height: 100vh;
@@ -40,7 +42,7 @@ export default function Home() {
           flex-direction: column;
           justify-content: center;
           align-items: center; */
-        } */
+        }
 
         /* main {
           /* background: url(../public/background.jpg) no-repeat center center fixed; */
@@ -113,7 +115,7 @@ export default function Home() {
           border-radius: 5px;
           padding: 0.75rem;
           font-size: 1.1rem;
-          font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
+          font-family:poppins, Menlo, Monaco, Lucida Console, Liberation Mono,
             DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
         } */
 
