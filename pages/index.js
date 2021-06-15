@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <div className="container">
-    <h1>WELCOME TO CHEFS KITCHEN</h1>
+    <h1>1WELCOME TO CHEFS KITCHEN</h1>
     <Image
     src="/background.jpg"
     alt="abstract black bakground"
@@ -12,8 +12,9 @@ export default function Home() {
     objectFit="cover"
     quality={100}
   />
-      
-        <title>ChefCooks</title>
+  <h1>2WELCOME TO CHEFSTER </h1>
+  <p>Welcome to my homepage!</p>
+        <title>Chefster</title>
         <link rel="icon" href="/favicon.ico" />
       
 
@@ -51,18 +52,22 @@ export default function Home() {
           justify-content: center;
           align-items: center; */
         } */
-
-        footer {
+        /* h1{
+          color:white;
+          text-transform:italic;
+          padding:20em;
+        } */
+        /* footer {
           width: 100%;
           height: 100px;
           border-top: 1px solid #eaeaea;
           display: flex;
           justify-content: center;
           align-items: center;
-        }
+        } */
 
         
-
+/* 
         footer a {
           display: flex;
           justify-content: center;
@@ -72,9 +77,9 @@ export default function Home() {
         a {
           color: inherit;
           text-decoration: none;
-        }
+        } */
 
-        .title a {
+        /* .title a {
           color: #0070f3;
           text-decoration: none;
         }
@@ -83,9 +88,9 @@ export default function Home() {
         .title a:focus,
         .title a:active {
           text-decoration: underline;
-        }
+        } */
 
-        .title {
+        /* .title {
           margin: 0;
           line-height: 1.15;
           font-size: 4rem;
@@ -99,20 +104,20 @@ export default function Home() {
         .description {
           line-height: 1.5;
           font-size: 1.5rem;
-        }
+        } */
         
             }
 
-        code {
+        h1{
           background: #fafafa;
           border-radius: 5px;
           padding: 0.75rem;
           font-size: 1.1rem;
           font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
             DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-        }
+        } */
 
-        .grid {
+        /* .grid {
           display: flex;
           align-items: center;
           justify-content: center;
@@ -120,9 +125,9 @@ export default function Home() {
 
           max-width: 800px;
           margin-top: 3rem;
-        }
+        } */
 
-        .card {
+        /* .card {
           margin: 1rem;
           flex-basis: 45%;
           padding: 1.5rem;
@@ -132,7 +137,7 @@ export default function Home() {
           border: 1px solid #eaeaea;
           border-radius: 10px;
           transition: color 0.15s ease, border-color 0.15s ease;
-        }
+        } */
 
        
 
