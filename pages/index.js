@@ -1,23 +1,24 @@
-import Head from 'next/head'
+
 import Image from 'next/image'
 
 export default function Home() {
   return (
     <div className="container">
-    
-      <Head>
-        <title>HomeCooks</title>
+    <h1>WELCOME TO CHEFS KITCHEN</h1>
+    <Image
+    src="/background.jpg"
+    alt="abstract black bakground"
+    layout="fill"
+    objectFit="cover"
+    quality={100}
+  />
+      
+        <title>ChefCooks</title>
         <link rel="icon" href="/favicon.ico" />
-      </Head>
+      
 
       <main>
-      <Image
-      src="../public/background.jpg"
-      alt="abstract black bakground"
-      layout="fill"
-      objectFit="cover"
-      quality={100}
-    />
+     
        
         <div className="grid">
           
@@ -29,27 +30,27 @@ export default function Home() {
       </footer>
 
       <style jsx>{`
-        .container {
-          background-image: src='../public/background.jpg' 
-          no-repeat center center fixed;
+        /* .container {
+          /* background-image: src='../public/background.jpg'  */
+          /* no-repeat center center fixed;
           min-height: 100vh;
           padding: 0 0.5rem;
           display: flex;
           flex-direction: column;
           justify-content: center;
-          align-items: center;
-        }
+          align-items: center; */
+        } */
 
-        main {
-          background: url(../public/background.jpg) no-repeat center center fixed;
-  background-size: cover; 
+        /* main {
+          /* background: url(../public/background.jpg) no-repeat center center fixed; */
+  /* background-size: cover; 
           padding: 5rem 0;
           flex: 1;
           display: flex;
           flex-direction: column;
           justify-content: center;
-          align-items: center;
-        }
+          align-items: center; */
+        } */
 
         footer {
           width: 100%;
@@ -60,9 +61,7 @@ export default function Home() {
           align-items: center;
         }
 
-        footer img {
-          margin-left: 0.5rem;
-        }
+        
 
         footer a {
           display: flex;
@@ -101,15 +100,7 @@ export default function Home() {
           line-height: 1.5;
           font-size: 1.5rem;
         }
-        img {
-              /* background-image: url(../public/background.jpg); */
-              background-size: cover;
-              background-repeat: no-repeat;
-              position: absolute;
-              height: 100vh; 
-              width: 100vw;
-              background-position: center; 
-
+        
             }
 
         code {
