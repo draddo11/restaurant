@@ -11,10 +11,11 @@ export default function Home() {
     <Image
     src="/background.jpg"
     alt="abstract black bakground"
-    layout="fill"
+    layout="fill" 
+    Layout="responsive"
     objectFit="cover"
     quality={100}
-  />
+  ></Image>
   <h1>2WELCOME TO CHEFSTER </h1>
   <p>Welcome to my homepage!</p>
        
