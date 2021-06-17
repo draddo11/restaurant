@@ -1,33 +1,32 @@
-
+import Head from 'next/head'
 import Image from 'next/image'
 
 export default function Home() {
   return (
     <div >
+    <Head>
     <title>Chefster</title>
     <link rel="icon" href="/favicon.ico" />
-
-    <h1>1WELCOME TO CHEFS KITCHEN</h1>
-    <Image
+    </Head>
+    
+      <h1>Welcome to Chefster </h1>
+      <Image
     src="/background.jpg"
     alt="abstract black bakground"
     layout="fill" 
-    Layout="responsive"
-    objectFit="cover"
+    // width={880}
+    // height={450}
+    // objectFit="cover"
     quality={100}
   ></Image>
   <h1>2WELCOME TO CHEFSTER </h1>
   <p>Welcome to my homepage!</p>
        
-      
-
-      <main>
-     
        
         <div className="grid">
           
         </div>
-      </main>
+    
 
       <footer>
        
@@ -112,9 +111,9 @@ export default function Home() {
             }
 
         h1{
-          background: #fafafa;
-          border-radius: 5px;
-          padding: 0.75rem;
+          background: red;
+       
+         
           font-size: 1.1rem;
           font-family:poppins, Menlo, Monaco, Lucida Console, Liberation Mono,
             DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
@@ -146,10 +145,10 @@ export default function Home() {
 
         }
 
-        @media (max-width: 600px) {
+        /* @media (max-width: 600px) {
           .grid {
             width: 100%;
-            flex-direction: column;
+            flex-direction: column; */
           }
         }
       `}</style>
