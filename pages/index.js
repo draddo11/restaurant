@@ -23,7 +23,9 @@ export default function Home() {
   <h1>2WELCOME TO CHEFSTER </h1>
   <p>Welcome to my homepage!</p>
        
-       
+  <Link href="/pages/reserve.js">
+  <a>Make A Reserveervation  </a>
+</Link>
         <div className="grid">
           
         </div>
