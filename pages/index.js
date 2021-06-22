@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
+// import Image from 'next/image'
 import Link from 'next/link'
 
 
@@ -12,30 +12,22 @@ export default function Home() {
     </Head>
     
       <h1>Welcome to Chefster </h1>
-      <Image
-    src="/background.jpg"
-    alt="abstract black bakground"
-    layout="fill" 
-    // width={880}
-    // height={450}
-    // objectFit="cover"
-    quality={100}
-    sizes="100%"
-  ></Image>
-  <h1>2WELCOME TO CHEFSTER </h1>
-  <p>Welcome to my homepage!</p>
-       
-  <Link href="/pages/reserve.js">
-  <a>Make A Reserveervation  </a>
-</Link>
-        <div className="grid">
-          
-        </div>
     
 
-      <footer>
+  
+  <p>Welcome to my homepage!</p>
        
-      </footer>
+  <Link href="/about">
+  <a>About Page</a>
+</Link>
+<h1>WELCOME TO CHEFSTER </h1>
+<Link href="/reserve">
+  <a>Make A Reservation </a>
+</Link>
+        
+    
+
+      
 
       <style jsx>{`
         .container {
