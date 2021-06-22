@@ -18,6 +18,7 @@ export default function Home() {
     // height={450}
     // objectFit="cover"
     quality={100}
+    sizes="100%"
   ></Image>
   <h1>2WELCOME TO CHEFSTER </h1>
   <p>Welcome to my homepage!</p>
