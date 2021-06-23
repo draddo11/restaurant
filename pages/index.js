@@ -116,7 +116,7 @@ export default function Home() {
             DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
         } */
 
-        /* .grid {
+         body{
           display: flex;
           align-items: center;
           justify-content: center;
@@ -124,7 +124,7 @@ export default function Home() {
 
           max-width: 800px;
           margin-top: 3rem;
-        } */
+        } 
 
         /* .card {
           margin: 1rem;
